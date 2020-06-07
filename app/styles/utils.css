@@ -1,0 +1,29 @@
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}

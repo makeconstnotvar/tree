@@ -1,0 +1,43 @@
+
+.container {
+  width: 1236px;
+  margin: auto;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 956px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: calc(100% - 30px);
+  }
+}
+
+.level {
+  border: 1px solid #ccc;
+  min-height: 100px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.comp {
+  border: 1px solid red;
+  min-height: 30px;
+  padding: 2px  2px 2px 8px;
+}
+
+.subs:not(:empty) {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.highlighted {
+  background-color: #eee;
+}
+
+.level-box + .level-box {
+  margin-top: 10px;
+}
