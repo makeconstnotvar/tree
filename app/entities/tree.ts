@@ -7,10 +7,14 @@ interface ILevelsTree {
   id: string;
   levels: IBrunch[];
   operations: ITreeOperations;
-  addComponent(parentLevelId:string);
-  delComponent(componentId:string);
-  addLevel(parentLevelId:string);
-  delLevel(parentLevelId:string);
+
+  addComponent(parentLevelId: string);
+
+  delComponent(componentId: string);
+
+  addLevel(parentLevelId: string);
+
+  delLevel(parentLevelId: string);
 }
 
 class LevelsTree implements ILevelsTree, IBrunch {
@@ -47,4 +51,4 @@ class LevelsTree implements ILevelsTree, IBrunch {
 
 LevelsTree.prototype.operations = treeOperations
 
-export {LevelsTree,ILevelsTree}
+export {LevelsTree, ILevelsTree}

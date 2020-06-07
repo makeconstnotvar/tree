@@ -1,4 +1,4 @@
-function makeid(length:number = 10):string {
+function makeid(length: number = 10): string {
   let result = '';
   let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   let charactersLength = characters.length;

@@ -26,7 +26,7 @@
 .comp {
   border: 1px solid red;
   min-height: 30px;
-  padding: 2px  2px 2px 8px;
+  padding: 2px 2px 2px 8px;
 }
 
 .subs:not(:empty) {

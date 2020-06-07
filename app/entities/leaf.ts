@@ -12,4 +12,4 @@ class Leaf implements ILeaf {
   }
 }
 
-export {Leaf,ILeaf}
+export {Leaf, ILeaf}
