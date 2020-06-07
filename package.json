@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch-js": "webpack --watch --progress",
-    "debud": "webpack --mode='development' --devtool='source-map'",
-    "release": "webpack",
+    "build": "webpack --progress",
     "start": "node start.js"
   },
   "keywords": [],

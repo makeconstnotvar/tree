@@ -1,8 +1,8 @@
 let path = require("path");
 
 module.exports = {
-  mode: "production",
-  devtool: false,
+  mode: "development",
+  devtool: "source-map",
   plugins: [],
   entry: {
     script: "./app/client.tsx"
